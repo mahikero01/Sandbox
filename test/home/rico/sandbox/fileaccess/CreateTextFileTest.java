@@ -8,7 +8,9 @@ public class CreateTextFileTest {
 
 	@Test
 	public void test() {
-		CreateTextFile test = new CreateTextFile();
+		CreateTextFile.openFile();
+		CreateTextFile.addRecords();
+		CreateTextFile.closeFile();
 	}
 
 }
